@@ -7,7 +7,7 @@ meme_dict = {
 word = input("Anlamını öğrenmek istediğiniz kelimeyi girin:")
 
 if word in meme_dict.keys():
-    print("Aradığınız kelimenin anlamı", meme_dict(word))
+    print("Aradığınız kelimenin anlamı", meme_dict[word])
 
 else: 
     print("Maalesef aradığınız kelimeyi bilmiyorum...")
